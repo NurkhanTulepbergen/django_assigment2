@@ -1,3 +1,11 @@
-from django.shortcuts import render
+from rest_framework.viewsets import ViewSet
+from rest_framework.response import Response
 
-# Create your views here.
+class ManageNotificationsView(ViewSet):
+    def list(self, request):
+        # Example implementation
+        return Response({"message": "List of notifications"})
+
+    def create(self, request):
+        # Example implementation
+        return Response({"message": "Notification created"})

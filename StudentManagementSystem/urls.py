@@ -21,5 +21,10 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/auth/', include('djoser.urls')),
     path('api/auth/', include('djoser.urls.jwt')),  # For JWT authentication
-    path('api/', include('users.urls'))
+    path('api/users/', include('users.urls')),
+    path('api/students/', include('students.urls')),
+    path('api/courses/', include('courses.urls')),
+    path('api/grades/', include('grades.urls')),
+    path('api/attendance/', include('attendance.urls')),
+    path('api/notifications/', include('notifications.urls'))
 ]
