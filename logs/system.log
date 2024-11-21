@@ -1,0 +1,5 @@
+INFO 2024-11-21 19:01:03,410 autoreload Watching for file changes with StatReloader
+WARNING 2024-11-21 19:01:18,649 log Not Found: /
+WARNING 2024-11-21 19:01:18,650 basehttp "GET / HTTP/1.1" 404 2973
+WARNING 2024-11-21 19:01:29,633 log Unauthorized: /api/auth/
+WARNING 2024-11-21 19:01:29,634 basehttp "GET /api/auth/ HTTP/1.1" 401 5034
