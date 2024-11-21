@@ -3,3 +3,47 @@ WARNING 2024-11-21 19:01:18,649 log Not Found: /
 WARNING 2024-11-21 19:01:18,650 basehttp "GET / HTTP/1.1" 404 2973
 WARNING 2024-11-21 19:01:29,633 log Unauthorized: /api/auth/
 WARNING 2024-11-21 19:01:29,634 basehttp "GET /api/auth/ HTTP/1.1" 401 5034
+INFO 2024-11-21 19:53:44,237 autoreload Watching for file changes with StatReloader
+INFO 2024-11-21 20:31:53,004 autoreload Watching for file changes with StatReloader
+INFO 2024-11-21 20:59:04,767 autoreload Watching for file changes with StatReloader
+INFO 2024-11-21 21:00:57,644 basehttp "POST /api/auth/jwt/create/ HTTP/1.1" 200 483
+INFO 2024-11-21 21:01:26,999 basehttp "GET /api/auth/ HTTP/1.1" 200 50
+INFO 2024-11-21 21:01:51,053 basehttp "GET /api/users/users/ HTTP/1.1" 200 122
+WARNING 2024-11-21 21:05:10,626 log Method Not Allowed: /api/grades/
+WARNING 2024-11-21 21:05:10,629 basehttp "POST /api/grades/ HTTP/1.1" 405 41
+INFO 2024-11-21 21:05:38,247 basehttp "GET /api/grades/ HTTP/1.1" 200 53
+INFO 2024-11-21 21:06:07,752 basehttp "GET /api/grades/grades/ HTTP/1.1" 200 52
+INFO 2024-11-21 21:08:13,750 basehttp "GET /api/courses/ HTTP/1.1" 200 119
+INFO 2024-11-21 21:08:29,931 basehttp "GET /api/courses/courses/ HTTP/1.1" 200 52
+INFO 2024-11-21 21:08:35,251 basehttp "GET /api/courses/ HTTP/1.1" 200 119
+WARNING 2024-11-21 21:09:16,221 log Not Found: /api/uath/users/users
+WARNING 2024-11-21 21:09:16,224 basehttp "GET /api/uath/users/users HTTP/1.1" 404 3051
+INFO 2024-11-21 21:09:26,320 basehttp "GET /api/auth/users/users HTTP/1.1" 301 0
+WARNING 2024-11-21 21:09:26,340 log Not Found: /api/auth/users/users/
+WARNING 2024-11-21 21:09:26,343 basehttp "GET /api/auth/users/users/ HTTP/1.1" 404 23
+INFO 2024-11-21 21:09:34,663 basehttp "GET /api/auth/users/ HTTP/1.1" 200 105
+WARNING 2024-11-21 21:10:43,237 log Method Not Allowed: /api/courses/
+WARNING 2024-11-21 21:10:43,241 basehttp "POST /api/courses/ HTTP/1.1" 405 41
+WARNING 2024-11-21 21:12:38,297 log Method Not Allowed: /api/courses/
+WARNING 2024-11-21 21:12:38,300 basehttp "POST /api/courses/ HTTP/1.1" 405 41
+WARNING 2024-11-21 21:14:01,399 log Method Not Allowed: /api/courses/
+WARNING 2024-11-21 21:14:01,403 basehttp "POST /api/courses/ HTTP/1.1" 405 41
+WARNING 2024-11-21 21:14:48,080 log Not Found: /
+WARNING 2024-11-21 21:14:48,083 basehttp "GET / HTTP/1.1" 404 2973
+WARNING 2024-11-21 21:14:48,111 log Not Found: /
+WARNING 2024-11-21 21:14:48,114 basehttp "GET / HTTP/1.1" 404 2973
+WARNING 2024-11-21 21:14:56,168 log Unauthorized: /api/courses/
+WARNING 2024-11-21 21:14:56,171 basehttp "GET /api/courses/ HTTP/1.1" 401 58
+INFO 2024-11-21 21:15:23,320 basehttp "GET /admin/ HTTP/1.1" 200 11662
+INFO 2024-11-21 21:15:32,931 basehttp "GET /admin/students/student/ HTTP/1.1" 200 11620
+INFO 2024-11-21 21:15:33,077 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-11-21 21:15:43,660 basehttp "GET /admin/courses/course/ HTTP/1.1" 200 11609
+INFO 2024-11-21 21:15:43,797 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-11-21 21:15:47,156 basehttp "GET /admin/courses/course/add/ HTTP/1.1" 200 13764
+INFO 2024-11-21 21:15:47,281 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-11-21 21:15:47,553 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2024-11-21 21:15:47,554 basehttp "GET /static/admin/css/forms.css HTTP/1.1" 200 9090
+INFO 2024-11-21 21:15:47,593 basehttp "GET /static/admin/css/widgets.css HTTP/1.1" 200 11800
+INFO 2024-11-21 21:15:47,610 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2024-11-21 21:16:04,311 basehttp "POST /admin/courses/course/add/ HTTP/1.1" 200 14100
+INFO 2024-11-21 21:16:04,431 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
