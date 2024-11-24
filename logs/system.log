@@ -47,3 +47,228 @@ INFO 2024-11-21 21:15:47,593 basehttp "GET /static/admin/css/widgets.css HTTP/1.
 INFO 2024-11-21 21:15:47,610 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
 INFO 2024-11-21 21:16:04,311 basehttp "POST /admin/courses/course/add/ HTTP/1.1" 200 14100
 INFO 2024-11-21 21:16:04,431 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-11-24 16:41:25,215 autoreload Watching for file changes with StatReloader
+WARNING 2024-11-24 16:41:54,811 log Bad Request: /api/auth/users/
+WARNING 2024-11-24 16:41:54,816 basehttp "POST /api/auth/users/ HTTP/1.1" 400 47
+INFO 2024-11-24 16:42:06,668 basehttp "POST /api/auth/users/ HTTP/1.1" 201 76
+INFO 2024-11-24 16:42:23,794 basehttp "POST /api/auth/jwt/create/%20 HTTP/1.1" 200 483
+INFO 2024-11-24 16:43:19,523 basehttp "GET /api/grades HTTP/1.1" 301 0
+INFO 2024-11-24 16:43:19,716 basehttp "GET /api/grades/ HTTP/1.1" 200 53
+INFO 2024-11-24 16:43:30,782 basehttp "GET /api/grades/grades HTTP/1.1" 301 0
+INFO 2024-11-24 16:43:30,824 basehttp "GET /api/grades/grades/ HTTP/1.1" 200 52
+WARNING 2024-11-24 16:44:49,413 log Unauthorized: /api/auth/jwt/create/ 
+WARNING 2024-11-24 16:44:49,416 basehttp "POST /api/auth/jwt/create/%20 HTTP/1.1" 401 63
+WARNING 2024-11-24 16:45:15,524 log Unauthorized: /api/auth/jwt/create/ 
+WARNING 2024-11-24 16:45:15,527 basehttp "POST /api/auth/jwt/create/%20 HTTP/1.1" 401 63
+INFO 2024-11-24 16:45:22,072 basehttp "POST /api/auth/jwt/create/%20 HTTP/1.1" 200 483
+WARNING 2024-11-24 16:47:12,805 log Method Not Allowed: /api/grades/
+WARNING 2024-11-24 16:47:12,808 basehttp "POST /api/grades/ HTTP/1.1" 405 41
+INFO 2024-11-24 16:52:53,626 autoreload C:\Tulepbergen\3Course\django_assigment2\grades\views.py changed, reloading.
+INFO 2024-11-24 16:52:56,714 autoreload Watching for file changes with StatReloader
+WARNING 2024-11-24 16:53:21,184 log Method Not Allowed: /api/grades/
+WARNING 2024-11-24 16:53:21,187 basehttp "POST /api/grades/ HTTP/1.1" 405 41
+INFO 2024-11-24 16:53:48,722 autoreload C:\Tulepbergen\3Course\django_assigment2\courses\views.py changed, reloading.
+INFO 2024-11-24 16:53:51,988 autoreload Watching for file changes with StatReloader
+INFO 2024-11-24 16:54:52,551 basehttp "GET /api/courses/ HTTP/1.1" 200 119
+INFO 2024-11-24 16:55:03,816 basehttp "GET /api/courses/courses/ HTTP/1.1" 200 52
+WARNING 2024-11-24 16:56:01,361 log Bad Request: /api/courses/courses/
+WARNING 2024-11-24 16:56:01,364 basehttp "POST /api/courses/courses/ HTTP/1.1" 400 60
+WARNING 2024-11-24 16:56:08,927 log Bad Request: /api/courses/courses/
+WARNING 2024-11-24 16:56:08,930 basehttp "POST /api/courses/courses/ HTTP/1.1" 400 60
+WARNING 2024-11-24 16:56:16,256 log Bad Request: /api/courses/courses/
+WARNING 2024-11-24 16:56:16,259 basehttp "POST /api/courses/courses/ HTTP/1.1" 400 60
+WARNING 2024-11-24 16:59:06,215 log Bad Request: /api/courses/courses/
+WARNING 2024-11-24 16:59:06,217 basehttp "POST /api/courses/courses/ HTTP/1.1" 400 60
+INFO 2024-11-24 17:01:18,855 autoreload C:\Tulepbergen\3Course\django_assigment2\courses\models.py changed, reloading.
+INFO 2024-11-24 17:01:22,161 autoreload Watching for file changes with StatReloader
+INFO 2024-11-24 17:01:31,707 basehttp "POST /api/courses/courses/ HTTP/1.1" 201 81
+INFO 2024-11-24 17:02:07,887 basehttp "POST /api/courses/courses/ HTTP/1.1" 201 85
+INFO 2024-11-24 17:02:29,169 basehttp "POST /api/courses/courses/ HTTP/1.1" 201 87
+INFO 2024-11-24 17:03:07,643 basehttp "GET /api/courses/courses/ HTTP/1.1" 200 307
+INFO 2024-11-24 17:03:53,078 basehttp "POST /api/courses/courses/ HTTP/1.1" 201 83
+INFO 2024-11-24 17:03:59,326 basehttp "POST /api/courses/courses/ HTTP/1.1" 201 87
+INFO 2024-11-24 17:04:07,487 basehttp "POST /api/courses/courses/ HTTP/1.1" 201 87
+INFO 2024-11-24 17:04:13,947 basehttp "POST /api/courses/courses/ HTTP/1.1" 201 87
+INFO 2024-11-24 17:04:20,796 basehttp "POST /api/courses/courses/ HTTP/1.1" 201 87
+INFO 2024-11-24 17:04:28,411 basehttp "POST /api/courses/courses/ HTTP/1.1" 201 87
+INFO 2024-11-24 17:04:34,341 basehttp "POST /api/courses/courses/ HTTP/1.1" 201 88
+INFO 2024-11-24 17:04:40,060 basehttp "POST /api/courses/courses/ HTTP/1.1" 201 88
+INFO 2024-11-24 17:04:46,869 basehttp "POST /api/courses/courses/ HTTP/1.1" 201 88
+INFO 2024-11-24 17:04:55,752 basehttp "POST /api/courses/courses/ HTTP/1.1" 201 90
+INFO 2024-11-24 17:04:59,525 basehttp "GET /api/courses/courses/ HTTP/1.1" 200 981
+INFO 2024-11-24 17:05:13,703 basehttp "GET /api/courses/courses/?page=2 HTTP/1.1" 200 348
+INFO 2024-11-24 17:06:09,249 autoreload C:\Tulepbergen\3Course\django_assigment2\grades\models.py changed, reloading.
+INFO 2024-11-24 17:06:12,421 autoreload Watching for file changes with StatReloader
+INFO 2024-11-24 17:07:56,228 basehttp "GET /api/courses/courses/1 HTTP/1.1" 301 0
+INFO 2024-11-24 17:07:56,277 basehttp "GET /api/courses/courses/1/ HTTP/1.1" 200 81
+ERROR 2024-11-24 17:08:28,954 log Internal Server Error: /api/courses/courses/1
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PUT data. Change your form to point to 127.0.0.1:8000/api/courses/courses/1/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2024-11-24 17:08:28,957 basehttp "PUT /api/courses/courses/1 HTTP/1.1" 500 71790
+ERROR 2024-11-24 17:09:13,463 log Internal Server Error: /api/courses/courses/1/
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\django_redis\cache.py", line 29, in _decorator
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django_redis\cache.py", line 104, in delete
+    result = self.client.delete(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django_redis\client\default.py", line 375, in delete
+    raise ConnectionInterrupted(connection=client) from e
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 10061 connecting to 127.0.0.1:6379. Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\rest_framework\viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python312\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Python312\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tulepbergen\3Course\django_assigment2\courses\views.py", line 61, in update
+    cache.delete(cache_key)  # Clear cached courses
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django_redis\cache.py", line 36, in _decorator
+    raise e.__cause__
+  File "C:\Python312\Lib\site-packages\django_redis\client\default.py", line 373, in delete
+    return client.delete(self.make_key(key, version=version, prefix=prefix))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\redis\commands\core.py", line 1705, in delete
+    return self.execute_command("DEL", *names)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\redis\client.py", line 559, in execute_command
+    return self._execute_command(*args, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\redis\client.py", line 565, in _execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\redis\connection.py", line 1422, in get_connection
+    connection.connect()
+  File "C:\Python312\Lib\site-packages\redis\connection.py", line 363, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+ERROR 2024-11-24 17:09:13,471 basehttp "PUT /api/courses/courses/1/ HTTP/1.1" 500 140364
+INFO 2024-11-24 17:09:54,494 basehttp "DELETE /api/courses/courses/1/ HTTP/1.1" 204 0
+WARNING 2024-11-24 17:10:03,183 log Not Found: /api/courses/courses/1/
+WARNING 2024-11-24 17:10:03,184 basehttp "GET /api/courses/courses/1/ HTTP/1.1" 404 47
+ERROR 2024-11-24 17:10:20,851 log Internal Server Error: /api/courses/courses/cached_courses/
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\django_redis\cache.py", line 29, in _decorator
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django_redis\cache.py", line 99, in _get
+    return self.client.get(key, default=default, version=version, client=client)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django_redis\client\default.py", line 260, in get
+    raise ConnectionInterrupted(connection=client) from e
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 10061 connecting to 127.0.0.1:6379. Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\rest_framework\viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python312\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Python312\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tulepbergen\3Course\django_assigment2\courses\views.py", line 40, in cached_courses
+    courses = cache.get(cache_key)
+              ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django_redis\cache.py", line 92, in get
+    value = self._get(key, default, version, client)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django_redis\cache.py", line 36, in _decorator
+    raise e.__cause__
+  File "C:\Python312\Lib\site-packages\django_redis\client\default.py", line 258, in get
+    value = client.get(key)
+            ^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\redis\commands\core.py", line 1822, in get
+    return self.execute_command("GET", name, keys=[name])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\redis\client.py", line 559, in execute_command
+    return self._execute_command(*args, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\redis\client.py", line 565, in _execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\redis\connection.py", line 1422, in get_connection
+    connection.connect()
+  File "C:\Python312\Lib\site-packages\redis\connection.py", line 363, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+ERROR 2024-11-24 17:10:20,856 basehttp "GET /api/courses/courses/cached_courses/ HTTP/1.1" 500 144503
+INFO 2024-11-24 17:10:41,016 basehttp "GET /api/courses/enrollments HTTP/1.1" 301 0
+INFO 2024-11-24 17:10:41,025 basehttp "GET /api/courses/enrollments/ HTTP/1.1" 200 52
+INFO 2024-11-24 17:17:34,737 autoreload Watching for file changes with StatReloader
+WARNING 2024-11-24 17:17:51,248 log Unauthorized: /api_schema
+WARNING 2024-11-24 17:17:51,249 basehttp "GET /api_schema HTTP/1.1" 401 183
+WARNING 2024-11-24 17:18:39,340 log Unauthorized: /api/auth/jwt/create/
+WARNING 2024-11-24 17:18:39,342 basehttp "POST /api/auth/jwt/create/ HTTP/1.1" 401 63
+INFO 2024-11-24 17:18:45,718 basehttp "POST /api/auth/jwt/create/ HTTP/1.1" 200 483
+WARNING 2024-11-24 17:19:12,258 log Unauthorized: /api_schema
+WARNING 2024-11-24 17:19:12,259 basehttp "GET /api_schema HTTP/1.1" 401 107
+INFO 2024-11-24 17:19:28,051 basehttp "GET /api_schema HTTP/1.1" 200 59110
+INFO 2024-11-24 17:26:32,029 autoreload Watching for file changes with StatReloader
+WARNING 2024-11-24 17:26:40,755 log Not Found: /
+WARNING 2024-11-24 17:26:40,756 basehttp "GET / HTTP/1.1" 404 3226
+WARNING 2024-11-24 17:26:57,456 log Not Found: /swagger-ui
+WARNING 2024-11-24 17:26:57,457 basehttp "GET /swagger-ui HTTP/1.1" 404 3274
+WARNING 2024-11-24 17:27:09,233 log Not Found: /swagger-ui/
+WARNING 2024-11-24 17:27:09,234 basehttp "GET /swagger-ui/ HTTP/1.1" 404 3277
+INFO 2024-11-24 17:27:15,142 basehttp "GET /docs HTTP/1.1" 301 0
+INFO 2024-11-24 17:27:15,170 basehttp "GET /docs/ HTTP/1.1" 200 690
+WARNING 2024-11-24 17:27:16,603 log Unauthorized: /api_schema
+WARNING 2024-11-24 17:27:16,605 basehttp "GET /api_schema HTTP/1.1" 401 58
+INFO 2024-11-24 17:27:51,114 basehttp "GET /docs HTTP/1.1" 301 0
+INFO 2024-11-24 17:27:51,118 basehttp "GET /docs/ HTTP/1.1" 200 690
+INFO 2024-11-24 17:29:16,661 autoreload Watching for file changes with StatReloader
+WARNING 2024-11-24 17:29:22,316 log Not Found: /
+WARNING 2024-11-24 17:29:22,317 basehttp "GET / HTTP/1.1" 404 3226
+INFO 2024-11-24 17:29:28,719 basehttp "GET /docs/ HTTP/1.1" 200 690
+WARNING 2024-11-24 17:29:28,973 log Unauthorized: /api_schema
+WARNING 2024-11-24 17:29:28,975 basehttp "GET /api_schema HTTP/1.1" 401 58

@@ -103,6 +103,7 @@ INSTALLED_APPS = [
     'attendance',
     'notifications',
     'django_celery_beat',
+    'rest_framework_swagger'
 ]
 
 REST_FRAMEWORK = {
@@ -154,7 +155,7 @@ ROOT_URLCONF = 'StudentManagementSystem.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

@@ -7,7 +7,7 @@ User = get_user_model()  # Teachers are part of the user system
 class Course(models.Model):
     name = models.CharField(max_length=100)
     description = models.TextField()
-    instructor = models.ForeignKey(User, on_delete=models.CASCADE, related_name='courses', limit_choices_to={'role': 'Teacher'})
+    instructor = models.ForeignKey(User, on_delete=models.CASCADE, related_name='courses')
 
     def __str__(self):
         return self.name

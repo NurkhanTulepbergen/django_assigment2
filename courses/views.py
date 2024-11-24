@@ -34,7 +34,6 @@ class CourseViewSet(viewsets.ModelViewSet):
     ordering = ['name']  # Default ordering
 
     @action(detail=False, methods=['get'])
-    @action(detail=False, methods=['get'])
     def cached_courses(self, request):
         user = request.user
         cache_key = f"courses_{user.id}_{user.role}"

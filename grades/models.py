@@ -10,7 +10,7 @@ class Grade(models.Model):
     course = models.ForeignKey(Course, on_delete=models.CASCADE, related_name='grades')
     grade = models.CharField(max_length=2)  # e.g., A, B+, C
     date = models.DateTimeField(auto_now_add=True)
-    teacher = models.ForeignKey(User, on_delete=models.CASCADE, related_name='assigned_grades', limit_choices_to={'role': 'Teacher'})
+    teacher = models.ForeignKey(User, on_delete=models.CASCADE, related_name='assigned_grades')
 
     def __str__(self):
         return f"{self.student.name} - {self.course.name} - {self.grade}"
